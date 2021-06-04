@@ -11,7 +11,8 @@ export default function Weather({ temp }) {
 }
 
 Weather.prototype = {
-    temp: PropsType.number.isRequired
+    temp: PropsType.number.isRequired,
+    condition: PropsType.string.isRequired
 }
 
 const styles = StyleSheet.create({
